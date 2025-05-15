@@ -21,7 +21,7 @@ const mailContent = (mail, link) => {
               padding: 20px 0;
           }
           .header-banner {
-          background-color: #E50914;
+          background-color: rgb(73, 10, 109);
           height:auto;
           width:100%;
           color: #fcfcfc
