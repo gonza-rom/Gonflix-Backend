@@ -22,7 +22,7 @@ export async function registerUser(data) {
       password: hashedPassword
     })
     // Generar un token de verificación
-    const validationToken = tokenService.generateValidationToken(user._id);
+    const validationToken = tokenService.generateValidationToken(user.id);
     const newUser = await authRepository.update(user._id, {
       verificationToken: validationToken
     });
