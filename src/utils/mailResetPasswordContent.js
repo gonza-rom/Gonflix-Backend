@@ -58,7 +58,7 @@ const mailContent = (mail, link) => {
         <div class="header-banner"> 
 
             <div class="header">
-                <img src="https://nextfliks.netlify.app/avatars/logo_blanco-removebg.png" alt="Logo" class="logo">
+                <img src="https://gonflix.netlify.app/GONFLIX-LOGO.png" alt="Logo" class="logo">
                 <h2>Cambio de contraseñaa</h2>
                 </div>
         </div>
@@ -80,7 +80,7 @@ const mailContent = (mail, link) => {
       <div class="footer">
           <p>© ${new Date().getFullYear()} NextFliks. Todos los derechos reservados.</p>
           <p>
-              <a href="https://nextfliks.com" style="color: #777; text-decoration: none;">Visita nuestro sitio web</a>              
+              <a href="https://gonflix.netlify.app" style="color: #777; text-decoration: none;">Visita nuestro sitio web</a>              
           </p>
       </div>
   </body>

@@ -30,7 +30,7 @@ const sendEmail = async (options) => {
 
   // Definir opciones del email
   const mailOptions = {
-    from: `Nexflit <nextfliks.site@gmail.com>`,
+    from: `Gonflix <Gonflix.site@gmail.com>`,
     to: email,
     subject: subject,
     text: message,
