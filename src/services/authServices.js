@@ -28,7 +28,7 @@ export async function registerUser(data) {
     });
 
     // Crear URL de verificación
-    const verificationUrl = `https://nextfliks.netlify.app/validar/${validationToken}`;
+    const verificationUrl = `https://gonflix.netlify.app/validar/${validationToken}`;
 
     // Enviar el token al correo electrónico del usuario
     const message = `Has solicitado registrarte en nuestra plataforma. Por favor, haz clic en el siguiente enlace para verificar tu email: \n\n ${verificationUrl}`;
@@ -157,7 +157,7 @@ export async function forgotPassword(email) {
     const resetToken = tokenService.generateValidationToken(existingUser.id);
 
     // Crear URL de verificación
-    const resetUrl = `https://nextfliks.netlify.app/resetpassword/${resetToken}`;
+    const resetUrl = `https://gonflix.netlify.app/resetpassword/${resetToken}`;
 
     // Enviar el token al correo electrónico del usuario
     const message = `Has solicitado el cambio de contraseña. Por favor, haz clic en el siguiente enlace : \n\n ${resetUrl}`;
